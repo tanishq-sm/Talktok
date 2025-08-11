@@ -7,7 +7,7 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
   cors: {
-    origin: ["https://talktok-backend.onrender.com/"],
+    origin: ["https://talktok-frontend.onrender.com"],
   },
 });
 
